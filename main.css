@@ -1,0 +1,31 @@
+body {
+    background-color: #000000 ;
+    text-align: center;
+    font-family: 'lato', sans-serif;
+}
+#main{
+    background-color: #ffffff;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding: 15px 0;
+}
+.start {
+    background-color: #ffffff23;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding: 10px 0;
+    color: #ffffff;
+}
+.oferta {background-color: #eedfdf;margin-left: auto;
+    margin-right: auto;
+	}
+.oferta2{background-color: #eedfdf;
+text-align:left !important; 
+margin-left: 100px;
+margin-right: 100px;
+}
+a:hover {color: #929292;}
+link {color: #000000;}
+a:visited {color: #000000;}
+.oferta2:hover {background-color: #ffffff}
+.oferta:hover {background-color: #ffffff}
