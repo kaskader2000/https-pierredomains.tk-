@@ -16,6 +16,13 @@ body {
     padding: 10px 0;
     color: #ffffff;
 }
+.countdown {
+    background-color: #ffffff23;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding: 10px 0;
+    color: #ffffff;
+}
 .oferta {background-color: #eedfdf;margin-left: auto;
     margin-right: auto;
 	}
