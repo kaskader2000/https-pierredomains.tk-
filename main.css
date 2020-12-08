@@ -16,7 +16,7 @@ body {
     padding: 10px 0;
     color: #ffffff;
 }
-.countdown {
+#countdown {
     background-color: #ffffff23;
     margin-left: 100px;
     margin-right: 100px;
