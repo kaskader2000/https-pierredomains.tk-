@@ -1,6 +1,38 @@
 <html><head><title>Pierredomains | już wkrótce!</title><!--głowna: main.html-->
 <link href="main.css" rel="stylesheet"  type="text/css">
 	<script>var countDownDate=new Date("Jan 5, 2021 12:00:00").getTime();var x=setInterval(function(){var now=new Date().getTime();var distance=countDownDate-now;var countdown=document.getElementById("countdown");var days=Math.floor(distance/(1000*60*60*24));var hours=Math.floor((distance%(1000*60*60*24))/(1000*60*60));var minutes=Math.floor((distance%(1000*60*60))/(1000*60));var seconds=Math.floor((distance%(1000*60))/1000);countdown.innerHTML=""+days+"d "+hours+"h "+minutes+"m "+seconds+"s! ";if(distance<0){clearInterval(x);document.getElementById("countdown").innerHTML="EXPIRED";}},100);</script>
+	<style>.photo3
+{
+	width: 450px;
+}
+
+.overlay
+{
+	position: relative;
+	width: 450px;
+	height: 278px;
+}
+
+.overlay .link
+{
+	position: absolute;
+	display: block;
+	width: 450px;
+	height: 65px;
+	background-color: #111;
+	left: 0px;
+	bottom: 0px;
+	opacity: 0;
+	transition: opacity 0.5s ease-in-out;
+}
+
+.overlay:hover .link
+{
+	opacity: 0.8;
+}
+	</style>
+	
+	
 	<link href='http://fonts.googleapis.com/css?family=Lato:400,700&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="og:image" content="https://pierredomains.tk/ej.gif">
@@ -8,7 +40,7 @@
     <meta name="description" content="pierredomains | załóż folder na którym będzie twoja strona, filmy, zdjęcia z wakacji itp. to wszystko, już niedługo!"></head><body>
        
         <div id="main"><h1><img src="ej.gif"><a href="#">pierredomains.tk</a><img src="ej.gif"></h1></div>
-	<div class="postcard">
+				<div class="postcard">
 				
 					<div class="photo3"> 
 						<div class="overlay">
