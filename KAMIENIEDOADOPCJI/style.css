@@ -1,0 +1,76 @@
+	#container
+	{
+		width: 1000px; 
+		margin-left: auto;
+		margin-right: auto;
+	}
+	
+	#logo
+	{
+		background-color: rgb(255, 101, 101);
+		color: white;
+		text-align: center;
+		padding: 15px;
+	}
+	
+	#menu
+	{
+		float: left;
+		background-color: lightblue;
+		color: black;
+		width: 120px;
+		min-height: 620px;
+		padding: 10px;
+	}
+	
+	#content
+	{
+		float: left;
+		padding: 20px;
+		width: 640px;
+	}
+	
+	#reklama
+	{
+		float: left;
+		width: 160px;
+		min-height: 620px;
+		padding: 10px;
+		background-color: lightblue;
+	}
+	
+	#stopka
+	{
+		clear: both;
+		background-color: rgb(0, 0, 0);
+		color: white;
+		text-align: center;
+		padding: 20px;
+	}
+	
+	.reklama
+	{
+		height: 200px;
+		width: 160px;
+	}
+	
+	.link
+	{
+		text-decoration: none;
+		color: rgb(0, 0, 0);
+	}
+	
+	
+	.tresc
+	{
+		width: 300px;
+		height: 320px;
+		padding: 10px;
+		float: left;
+	}
+	
+	.clear
+	{
+		clear: both;
+	}
+
